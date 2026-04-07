@@ -1,0 +1,45 @@
+# Virtual environments
+venv/
+venv311/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+*.json
+
+# Temporary files
+temp_*
+*.tmp
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.cache/
+.streamlit/
+
+# Model files (download at runtime)
+*.pkl
+*.h5
+*.pb
+*.pt
+*.pth
+*.onnx
