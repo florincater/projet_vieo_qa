@@ -50,8 +50,8 @@ if uploaded_file:
         with st.spinner("Processing..."):
             try:
                 # Import transcription module
-                from transcription import VideoTranscriber
-                
+                #from transcription import VideoTranscriber
+                from backend.transcription import VideoTranscriber  # or wherever it is
                 # Determine if we need to extract audio
                 if uploaded_file.name.endswith(('.mp4', '.avi', '.mov', '.mkv')):
                     st.info("Extracting audio from video...")
